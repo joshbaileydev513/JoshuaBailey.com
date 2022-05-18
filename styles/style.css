@@ -1,0 +1,33 @@
+h1 {
+    text-align:  center; 
+    color: aqua;
+    font-style: italic;
+}
+
+h1:hover {
+    color: blue;
+}
+
+
+
+h2 {
+    text-align:  center; 
+    color: rgb(0, 0, 0);
+    font-style: bold;
+    text-size-adjust: 30px;
+}
+
+
+.title-style{ 
+text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
