@@ -138,3 +138,9 @@ nav .menu{
     padding-left: 7px;
     padding-top: 2px;
 }
+
+.footer {
+    background-color: #1b1b1b;
+    height: 70px;
+    width: 100%;
+}
