@@ -1,3 +1,4 @@
+/* Google Font I pulled below along with CSS being applied to margin/padding/bocsize/fontfamily */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
@@ -6,11 +7,13 @@
   font-family: 'Poppins',sans-serif;
 }
 
+/* Pseudoelement */
 ::selection{
   color: #000;
   background: #fff;
 }
 
+/* CSS for the Nav bar and nav menu section */
 nav{
   position: fixed;
   background: #1b1b1b;
@@ -26,6 +29,7 @@ nav .menu{
   justify-content: space-between;
 }
 
+/* Syling for the menu secetions: logo/ ul /ul li/ ul li: first child/ ul li a & hover */
 .menu .logo a{
   text-decoration: none;
   color: #fff;
@@ -61,6 +65,7 @@ nav .menu{
   color: black;
 }
 
+/* Main background styling */
 .background {
   background-color: grey;
   width: 100%;
@@ -70,6 +75,7 @@ nav .menu{
   position: relative;
 }
 
+/* Styling for center class from title-buttons */
 .center{
   position: absolute;
   top: 52%;
@@ -87,6 +93,7 @@ nav .menu{
   padding-bottom: 0px;
 }
 
+/* Media Queries for the .center .title for responsiveness */
   /* Extra small devices (phones, 600px and down) */
   @media only screen and (max-width: 600px) {
     .center .title {
@@ -150,11 +157,13 @@ nav .menu{
   color: #fff
 }
 
+/* Styling effect for when you hover over the bottons */
 .center .btns button:hover{
     background: #fff;
     color: black;
 }
 
+/* Styling for JB logo with circle in the top left of all pages */
 .circle {
     width: 60px;
     height: 60px;
@@ -164,16 +173,19 @@ nav .menu{
     padding-top: 2px;
 }
 
+/* Styling for bottom black bar at footer */
 .footer {
     background-color: #1b1b1b;
     height: 70px;
     width: 100%;
 }
 
+/* Styling for margins on the paragraph text to center them more */
 .paragraphtext {
     padding: 0px 150px;
 }
 
+/* Media Queries for the Paragraph text for responsiveness */
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .paragraphtext {
