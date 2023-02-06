@@ -14,18 +14,16 @@
 nav{
   position: fixed;
   background: #1b1b1b;
+  z-index: 12;
   width: 100%;
   padding: 10px 0;
-  z-index: 12;
 }
 
 nav .menu{
-  max-width: 1250px;
-  margin: auto;
+  padding: 0 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
 }
 
 .menu .logo a{
@@ -63,21 +61,13 @@ nav .menu{
   color: black;
 }
 
-.img{
-  background: url('img3.jpg')no-repeat;
+.background {
+  background-color: grey;
   width: 100%;
-  height: 100vh;
+  height: 140vh;
   background-size: cover;
   background-position: center;
   position: relative;
-}
-
-.img::before{
-  content: '';
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.4);
 }
 
 .center{
@@ -96,6 +86,41 @@ nav .menu{
   font-weight: 600;
   padding-bottom: 0px;
 }
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .center .title {
+      padding-top: 70vh;
+    }
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .center .title {
+      padding-top: 70vh;
+    }
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .center .title {
+      padding-top: 40vh;
+    }
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .center .title {
+      padding-top: 20vh;
+    }
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .center .title {
+      padding-top: 20vh;
+    }
+  }
 
 .center .sub_title{
   color: #fff;
@@ -147,4 +172,39 @@ nav .menu{
 
 .paragraphtext {
     padding: 0px 150px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .paragraphtext {
+    padding: 0px 50px;
+  } 
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .paragraphtext {
+    padding: 0px 50px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .paragraphtext {
+    padding: 0px 100px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .paragraphtext {
+    padding: 0px 150px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .paragraphtext {
+    padding: 0px 150px;
+  }
 }
