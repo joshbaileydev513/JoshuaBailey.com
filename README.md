@@ -27,15 +27,15 @@ To get this project installed you can find the core code at https://github.com/j
 
 git clone (paste your HTTPS or SSH link)
 
-Or you can view the live page here: https://joshbaileydev513.github.io/JoshuaBailey.com/
+Or you can view the live page here: https://joshbaileydev513.github.io/JoshuaBailey.com/index.html
 
 ## Usage
 
-To use the main functionality of this page, you can click the three sections (Resume, Portfolio, Contact) in the top right of the nav bar to take you to those spots on the page to learn more information on that topic. To bring you back to the main page with my pciture/info, just click the JB inside a circle in the top left. Below is a picture of what the deployed webpage will look like. 
+To use the main functionality of this page, you can click the three sections (Resume, Portfolio, Contact) in the top right of the nav bar to take you to those spots on the page to learn more information on that topic. To bring you back to the main page with my picture/info, just click the JB inside a circle in the top left. Below is a picture of what the deployed webpage will look like. 
 
-![alt text](Develop/assets/)
+![alt text](assets/LivePage.png)
 
-Additionally, you can find the live page at this link: https://joshbaileydev513.github.io/JoshuaBailey.com/
+Additionally, you can find the live page at this link: https://joshbaileydev513.github.io/JoshuaBailey.com/index.html
 
 ## Credits
 
